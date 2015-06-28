@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<root>
+	<?processing instruction?>
+	<!-- comment -->
+	<element attribute="value">some text</element>
+	<selfclosing/>
+	<element><![CDATA[some cdata]]></element>
+</root>

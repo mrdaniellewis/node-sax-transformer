@@ -1,0 +1,25 @@
+{
+  "name": "node-sax-transformer",
+  "version": "1.0.0",
+  "description": "Transforms XML document to another using a SAX stream",
+  "main": "./lib/transform-xml",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sax",
+    "transform"
+  ],
+  "author": "Daniel Lewis",
+  "license": "ISC",
+  "dependencies": {
+    "sax": "~1.1.1",
+    "pipe-box": "~1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect": "*",
+    "stream-collect": "*",
+    "stread": "1.0.0"
+  }
+}
